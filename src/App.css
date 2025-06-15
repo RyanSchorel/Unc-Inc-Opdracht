@@ -245,7 +245,17 @@
         font-weight: 500;
         }
       .username {
-        color: green;
+        color: rgb(38, 137, 38);
         font-weight: 600;
         font-size: 18px; 
        }
+        .password {
+        color: rgb(38, 137, 38);
+        font-weight: 600;
+        font-size: 18px; 
+       }
+
+
+
+
+       
