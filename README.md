@@ -1,11 +1,20 @@
-## What does this do?
+# Unc Inc Stage Opdracht
+Gemaakt door Ryan Schorel
 
-This project gives you the base for creating private routes and authentication with React and React Router V6. For any help or advice, please comment on the youtube video link about.
+## Omschrijving project:
+Voor deze opdracht heb ik een website gebouwt met het framework react.
+Je kunt navigeren door het menu heen. Je hebt drie pagina’s: Home, Login en Dashboard. Alleen ingelogde gebruikers kunnen het dashboard zien. Bij een fout wachtwoord krijg je een foutmelding.
 
-### `npm start`
+## Wat kan het allemaal?
+- Home via `/` of `/home`.
+- Login via `/login` met gebruikersnaam "uncinc" en wachtwoord "letmein".
+- Dashboard via `/dashboard`, alleen als je bent ingelogd.  
+- Foutmelding bij verkeerde inloggegevens.  
+- Je blijft ingelogd na refresh, zoals f5.
+- Je kunt uitloggen.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installatie
+1. Clone de repo  
+2. Installeer met `yarn install`  
+3. Start met `yarn start`  
+4. Open met je localhost.
